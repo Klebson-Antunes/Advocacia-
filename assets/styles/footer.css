@@ -1,0 +1,33 @@
+/* Rodape*/
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem 0;
+}
+
+.rodape .conteudo__titulo {
+    font-size: 1rem;
+}
+
+.rodape__link {
+    color: var(--branco);
+}
+
+.rodape__icons {
+    display: flex;
+    gap: 2rem;
+    color: var(--rosa-claro);
+    font-size: 1.5rem;
+}
+
+.rodape__icons i:hover {
+    font-size: 2rem;
+}
+
+.rodape__paragrafo {
+    color: var(--branco);
+}
